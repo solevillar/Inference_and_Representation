@@ -9,7 +9,7 @@
 
 ## Syllabus
 
-This graduate level course presents fundamental tools of statistical inference, probabilistic graphical models and generative models for machine learning. 
+This is a graduate level course that presents fundamental tools of statistical inference, probabilistic graphical models and generative models for machine learning. 
 
 Some of the covered topics include latent graphical models (Latent Dirichlet Allocation, Gaussian Processes), state-space models (Kalman Filter, Hidden Markov Models), Gibbs Models and Deep generative models (Variational autoencoders, GANs).
 
