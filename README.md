@@ -56,9 +56,9 @@ There is no required book. Assigned readings will come from freely-available onl
 
 
 
-| Date     | Topic                                                                                     | References                                                        |
-|----------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Sept 3rd | Introduction to inference and graphical models. Priors, likelihood functions, posteriors. | MacKay chapters 2 and 21.  Section 2.1 of Jordan and Wainwright. [Example seen in class](./materials/example_posterior_computation.ipynb). |
+| Date     | Topic                                                                                     | References                                                        | Homework |
+|----------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------|----------|
+| Sept 3rd | Introduction to inference and graphical models. Priors, likelihood functions, posteriors. | MacKay chapters 2 and 21.  Section 2.1 of Jordan and Wainwright. [Example seen in class](./materials/example_posterior_computation.ipynb). | HW 1 due 9/16.
 |          |                                                                                           |                                                                   |
 |          |                                                                                           |                                                                   |
 
