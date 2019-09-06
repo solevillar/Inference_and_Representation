@@ -51,7 +51,7 @@ There is no required book. Assigned readings will come from freely-available onl
 ## Important dates
 - October 15. No class (legislative Monday).
 - October 29. Midterm
-- December 5-6, 4:55pm-6:35pm. Final project presentations.
+- December 4, 5, 6, 4:55pm-6:35pm. Final project presentations.
 - December 10. Final project due. 
 
 
