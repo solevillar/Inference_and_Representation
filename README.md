@@ -17,7 +17,7 @@ Some of the covered topics include latent graphical models (Latent Dirichlet All
 Tuesdays 4:55pm-6:35pm, in 60 5th Ave, FA 110. 
 
 ## Recitation (required)
-Mondays from 4:55pm-5:45pm, in 100 Washington Sq East, SILV 520.
+Mondays from 4:55pm-5:45pm, in 60 5th Ave, FA 110. 
 
 ## Office hours
 SV: Tuesdays, 3:00pm-4:45pm. Location: 60 5th ave, 6th floor, room 617.
