@@ -47,6 +47,9 @@ There is no required book. Assigned readings will come from freely-available onl
 ### Further Reading
   - Mike Jordan and Martin Wainwright, [Graphical Models, Exponential Families, and Variational Inference](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf)
 
+### Additional Readings for the Recitation
+  - Christopher Bishop, [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
+
 
 ## Important dates
 - October 15. No class (legislative Monday).
