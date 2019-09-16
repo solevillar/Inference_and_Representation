@@ -66,7 +66,7 @@ There is no required book. Assigned readings will come from freely-available onl
 | Sept 3rd | Introduction to inference and graphical models. Priors, likelihood functions, posteriors. | MacKay chapters 2 and 21.  Section 2.1 of Jordan and Wainwright. [Example seen in class](./materials/example_posterior_computation.ipynb). | HW 1 due 9/16.
 | Sept 9th (recitation) | Basics of probability; data fitting and maximum likelihood inference. | PRML chapter 1.
 |Sept 10th | Bayesian networks, naive bayes, hidden markov models        | Murphy chapters 10, 17, 3.  
-| Sept 16th (recitation)| Markov chains and PageRank; hidden Markov models. | Lecture notes on Markov chains; Book chapter on HMMs
+| Sept 16th (recitation)| Markov chains and PageRank; hidden Markov models. | Murphy sections 17.2, 17.4; Lecture notes on Markov chains; Book chapter on HMMs
 |
 |          |                                                                                           |                                                                   |
 
