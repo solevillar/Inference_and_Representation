@@ -48,7 +48,9 @@ There is no required book. Assigned readings will come from freely-available onl
   - Mike Jordan and Martin Wainwright, [Graphical Models, Exponential Families, and Variational Inference](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf)
 
 ### Additional Readings for the Recitation
-  - Christopher Bishop, [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
+  - Christopher Bishop, [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) (PRML)
+  - Miranda Holmes-Cerfon, [Lecture notes on Markov Chains](https://cims.nyu.edu/~holmes/teaching/asa19/handout_Lecture2_2019.pdf)
+  - Daniel Jurafsky and James Martin, [Book chapter on hidden Markov models](https://web.stanford.edu/~jurafsky/slp3/A.pdf)
 
 
 ## Important dates
@@ -62,7 +64,10 @@ There is no required book. Assigned readings will come from freely-available onl
 | Date     | Topic                                                                                     | References                                                        | Homework |
 |----------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------|----------|
 | Sept 3rd | Introduction to inference and graphical models. Priors, likelihood functions, posteriors. | MacKay chapters 2 and 21.  Section 2.1 of Jordan and Wainwright. [Example seen in class](./materials/example_posterior_computation.ipynb). | HW 1 due 9/16.
-|Sept 10th | Bayesian networks, naive bayes, hidden markov models        | Murphy chapters 10, 17, 3.                                                                   |
+| Sept 9th (recitation) | Basics of probability; data fitting and maximum likelihood inference. | PRML chapter 1.
+|Sept 10th | Bayesian networks, naive bayes, hidden markov models        | Murphy chapters 10, 17, 3.  
+| Sept 16th (recitation)| Markov chains and PageRank; hidden Markov models. | Lecture notes on Markov chains; Book chapter on HMMs
+|
 |          |                                                                                           |                                                                   |
 
 
