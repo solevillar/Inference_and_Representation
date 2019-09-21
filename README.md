@@ -67,7 +67,6 @@ There is no required book. Assigned readings will come from freely-available onl
 | Sept 9th (recitation) | Basics of probability; data fitting and maximum likelihood inference. | PRML chapter 1.
 |Sept 10th | Bayesian networks, naive bayes, hidden markov models        | Murphy chapters 10, 17, 3.  
 | Sept 16th (recitation)| Markov chains and PageRank. | Murphy sections 17.2, 17.4; Lecture notes on Markov chains
-|
 | Sept 17th  | Bayesian networks (cont.) Bayes Ball algorithm, Undirected graphical models | Murphy chapter 10 and sections 19.1-19.4                                                                   | HW2 due 10/2 |
 
 
