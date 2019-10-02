@@ -71,5 +71,7 @@ There is no required book. Assigned readings will come from freely-available onl
 | Sept 23rd (recitation)  | Hidden Markov models, Viterbi algorithm | Book chapter on HMMs | |
 | Sept 24th  | EM for mixtures of Gaussians and training HMMs | Bishop chapter 9 and https://web.stanford.edu/~jurafsky/slp3/A.pdf | |
 | Sept 30th (recitation)  | Baum-Welch algorithm (EM algorithm) for HMMs | Book chapter on HMMs |  |
+| Oct 1st  | Belief propagation and stochastic block model | Murphy chapter 20 and https://arxiv.org/pdf/1702.00467.pdf |  |
+
 
 
