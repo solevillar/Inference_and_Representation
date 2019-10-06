@@ -51,6 +51,7 @@ There is no required book. Assigned readings will come from freely-available onl
   - Christopher Bishop, [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) (PRML)
   - Miranda Holmes-Cerfon, [Lecture notes on Markov Chains](https://cims.nyu.edu/~holmes/teaching/asa19/handout_Lecture2_2019.pdf)
   - Daniel Jurafsky and James Martin, [Book chapter on hidden Markov models](https://web.stanford.edu/~jurafsky/slp3/A.pdf)
+  - Bill Freeman and Antonio Torralba, [Lecture notes on belief propagation](http://6.869.csail.mit.edu/fa13/lectures/slideNotesCh7rev.pdf)
 
 
 ## Important dates
@@ -68,10 +69,12 @@ There is no required book. Assigned readings will come from freely-available onl
 |Sept 10th | Bayesian networks, naive bayes, hidden markov models        | Murphy chapters 10, 17, 3.  
 | Sept 16th (recitation)| Markov chains and PageRank. | Murphy sections 17.2, 17.4; Lecture notes on Markov chains
 | Sept 17th  | Bayesian networks (cont.) Bayes Ball algorithm, Undirected graphical models | Murphy chapter 10 and sections 19.1-19.4                                                                   | HW2 due 10/2 |
-| Sept 23rd (recitation)  | Hidden Markov models, Viterbi algorithm | Book chapter on HMMs | |
+| Sept 23rd (recitation)  | Hidden Markov models, Viterbi algorithm | [Book chapter on HMMs](https://web.stanford.edu/~jurafsky/slp3/A.pdf) | |
 | Sept 24th  | EM for mixtures of Gaussians and training HMMs | Bishop chapter 9 and https://web.stanford.edu/~jurafsky/slp3/A.pdf | |
-| Sept 30th (recitation)  | Baum-Welch algorithm (EM algorithm) for HMMs | Book chapter on HMMs |  |
-| Oct 1st  | Belief propagation and stochastic block model | Murphy chapter 20 and https://arxiv.org/pdf/1702.00467.pdf . See Zhengdao's paper about community detection using GNNs https://openreview.net/pdf?id=H1g0Z3A9Fm . |  |
+| Sept 30th (recitation)  | Baum-Welch algorithm (EM algorithm) for HMMs | [Book chapter on HMMs](https://web.stanford.edu/~jurafsky/slp3/A.pdf) |  |
+| Oct 1st  | Belief propagation and stochastic block model | Murphy chapter 20 and https://arxiv.org/pdf/1702.00467.pdf . See Zhengdao's paper about [community detection using GNNs](https://openreview.net/pdf?id=H1g0Z3A9Fm) . |  |
+| Oct 7th (recitation) | Belief propagation | [Lecture notes on BP](http://6.869.csail.mit.edu/fa13/lectures/slideNotesCh7rev.pdf) | |
+
 
 
 
