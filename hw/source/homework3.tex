@@ -28,30 +28,33 @@
 
 \begin{enumerate}
 
-\item {\bf Message passing on a tree. (From Murphy chapter 20)} 
 
-Consider the DGM below which represents the following fictitious biological model. Each $G_i$ represents the genotype of a person: $G_i = 1$ if they have a healthy gene and $G_i = 2$ if they have an unhealthy gene. $G_2$ and $G_3$ may inherit the unhealthy gene from their parent $G_1$. $X_i\in \mathbb R$ is a continuous measure of blood pressure, which is low if you are healthy and high if you are unhealthy. We define the CPDs as follows
+\item {\bf Sum-product algorithm. From Brown University CS 242.} 
 
-\begin{minipage}{0.6\textwidth}
-\vspace{-30pt}
-\begin{eqnarray*}
-p(G_1) &=& [0.5, 0.5] \\
-p(G_2|G_1) &=& \left( \begin{matrix} 0.9 & 0.1 \\ 0.1 & 0.9 \end{matrix} \right) \\
-p(G_3|G_1) &=&  \left( \begin{matrix} 0.9 & 0.1 \\ 0.1 & 0.9 \end{matrix} \right) \\
-p(X_i | G_i =1) &=& \mathcal N (X_i | \mu=50, \sigma^2 =10) \\
-p(X_i | G_i =2) &=& \mathcal N (X_i | \mu=60, \sigma^2 =10) 
-\end{eqnarray*}
-\end{minipage}
-\begin{minipage}{0.7\textwidth}
-\includegraphics[width=0.22\textwidth]{fig_hw3}
-\end{minipage}
+We implement the sum-product variant of the belief propagation algorithm to compute marginals. To understand the details of the sum-product algorithm, we recommend Chapter 5 of Barber's ``Bayesian Reasoning and Machine Learning", as well as ``Factor Graphs and the Sum-Product Algorithm" by Kschischang, Frey, \& Loeliger, IEEE Trans. Information Theory 47, pp. 498-519, 2001.
+
+You must write your own  implementation of the sum-product algorithm in Python.
+
+We  provided code implementing a data structure to store the graph adjacency structure, and numeric potential tables, defining any discrete factor graph. We also provided code that explicitly builds a table containing the probabilities of all joint configurations of the variables in a factor graph, and sums these probabilities to compute the marginal
+distribution of each variable. Such ``brute force" inference code is of course inefficient, and will only be computationally tractable for small models.
+
+We recommend (but do not require) that you use these same data structures for your own implementation of the sum-product algorithm, by implementing \path{get_beliefs}. To gain intuition for the graph structure, examine the output of \path{make_debug_graph.ipynb}. Think of the code we provide as a starting point: you are welcome to create additional functions or data structures as needed. 
 
 \begin{enumerate}
-\item Suppose you observe $X_2=50$ and $X_1$ is unobserved. What is the posterior belief on $G_1$ (i.e. $p(G_1|X_2=50)$?)
-\item Now suppose you observe $X_2=50$ and $X_3=50$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
-\item Now suppose $X_2=60$ and $X_3=60$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
-\item Now suppose $X_2=50$ and $X_3=60$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
-\end{enumerate}
+\item Implement the sum-product algorithm. Your code should support an arbitrary factor graph linking a collection of discrete random variables. Use a parallel message update schedule,
+in which all factor-to-variable messages are updated given the current variable-to-factor messages, and then all variable-to-factor messages given the current factor-to-variable
+messages. Initialize by setting the variable-to-factor messages to equal 1 for all states.
+Be careful to normalize messages to avoid numerical underflow.
+
+
+\item Consider the four-node, tree-structured factor graph illustrated in Figure \ref{fig:tree} with binary variables. Numeric values for the potential functions are defined in \path{make_debug_graph.ipynb}. Run your implementation of the sum-product algorithm on this graph, and report the marginal distributions it computes. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=2in]{brown_hw1}
+\caption{A tree-structured factor graph in which four factors link four binary random variable.}
+\label{fig:tree}
+\end{figure}
+\end {enumerate}
 
 
 \item  {\bf LDPC, (appeared in Joan Bruna's homework set).} 
@@ -131,34 +134,33 @@ Draw the graphical model for this modified HMM, identifying
 
 
 
-\item {\bf Sum-product algorithm. From Brown University CS 242. \newline [10 points of extra credit]} 
 
-We implement the sum-product variant of the belief propagation algorithm to compute marginals. To understand the details of the sum-product algorithm, we recommend Chapter 5 of Barber's ``Bayesian Reasoning and Machine Learning", as well as ``Factor Graphs and the Sum-Product Algorithm" by Kschischang, Frey, \& Loeliger, IEEE Trans. Information Theory 47, pp. 498-519, 2001.
 
-You must write your own  implementation of the sum-product algorithm in Python.
+\item {\bf Message passing on a tree. (From Murphy chapter 20)\newline [10 points of extra credit]} 
 
-We  provided code implementing a data structure to store the graph adjacency structure, and numeric potential tables, defining any discrete factor graph. We also provided code that explicitly builds a table containing the probabilities of all joint configurations of the variables in a factor graph, and sums these probabilities to compute the marginal
-distribution of each variable. Such ``brute force" inference code is of course inefficient, and will only be computationally tractable for small models.
+Consider the DGM below which represents the following fictitious biological model. Each $G_i$ represents the genotype of a person: $G_i = 1$ if they have a healthy gene and $G_i = 2$ if they have an unhealthy gene. $G_2$ and $G_3$ may inherit the unhealthy gene from their parent $G_1$. $X_i\in \mathbb R$ is a continuous measure of blood pressure, which is low if you are healthy and high if you are unhealthy. We define the CPDs as follows
 
-We recommend (but do not require) that you use these same data structures for your own implementation of the sum-product algorithm, by implementing \path{get_beliefs}. To gain intuition for the graph structure, examine the output of \path{make_debug_graph.ipynb}. Think of the code we provide as a starting point: you are welcome to create additional functions or data structures as needed. 
+\begin{minipage}{0.6\textwidth}
+\vspace{-30pt}
+\begin{eqnarray*}
+p(G_1) &=& [0.5, 0.5] \\
+p(G_2|G_1) &=& \left( \begin{matrix} 0.9 & 0.1 \\ 0.1 & 0.9 \end{matrix} \right) \\
+p(G_3|G_1) &=&  \left( \begin{matrix} 0.9 & 0.1 \\ 0.1 & 0.9 \end{matrix} \right) \\
+p(X_i | G_i =1) &=& \mathcal N (X_i | \mu=50, \sigma^2 =10) \\
+p(X_i | G_i =2) &=& \mathcal N (X_i | \mu=60, \sigma^2 =10) 
+\end{eqnarray*}
+\end{minipage}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[width=0.22\textwidth]{fig_hw3}
+\end{minipage}
 
 \begin{enumerate}
-\item Implement the sum-product algorithm. Your code should support an arbitrary factor graph linking a collection of discrete random variables. Use a parallel message update schedule,
-in which all factor-to-variable messages are updated given the current variable-to-factor messages, and then all variable-to-factor messages given the current factor-to-variable
-messages. Initialize by setting the variable-to-factor messages to equal 1 for all states.
-Be careful to normalize messages to avoid numerical underflow.
-
-
-\item Consider the four-node, tree-structured factor graph illustrated in Figure \ref{fig:tree} with binary variables. Numeric values for the potential functions are defined in \path{make_debug_graph.ipynb}. Run your implementation of the sum-product algorithm on this graph, and report the marginal distributions it computes. 
-\begin{figure}[h]
-\centering
-\includegraphics[width=2in]{brown_hw1}
-\caption{A tree-structured factor graph in which four factors link four binary random variable.}
-\label{fig:tree}
-\end{figure}
-\end {enumerate}
-
+\item Suppose you observe $X_2=50$ and $X_1$ is unobserved. What is the posterior belief on $G_1$ (i.e. $p(G_1|X_2=50)$?)
+\item Now suppose you observe $X_2=50$ and $X_3=50$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
+\item Now suppose $X_2=60$ and $X_3=60$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
+\item Now suppose $X_2=50$ and $X_3=60$. What is $p(G_1| X_2, X_3)$? Explain your answer intuitively.
 \end{enumerate}
 
+\end{enumerate}
 
 \end{document}
