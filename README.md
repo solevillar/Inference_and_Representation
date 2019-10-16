@@ -75,6 +75,7 @@ There is no required book. Assigned readings will come from freely-available onl
 | Sept 30th (recitation)  | Baum-Welch algorithm (EM algorithm) for HMMs | [Book chapter on HMMs](https://web.stanford.edu/~jurafsky/slp3/A.pdf) |  |
 | Oct 1st  | Belief propagation and stochastic block model | Murphy chapter 20 and https://arxiv.org/pdf/1702.00467.pdf . See Zhengdao's paper about [community detection using GNNs](https://openreview.net/pdf?id=H1g0Z3A9Fm) . |  |
 | Oct 7th (recitation) | Belief propagation | [Lecture notes on BP](http://6.869.csail.mit.edu/fa13/lectures/slideNotesCh7rev.pdf) and [slides on BP](http://mlg.eng.cam.ac.uk/mlss09/mlss_slides/Ghahramani_2.pdf)| |
+| Oct 8th (recitation) | Introduction to error correcting codes. Introduction to sampling methods | Chapters 1 and 47 of MacKay. Bishop chapter 11 | HW 3 due October 22 (noon) |
 
 
 
