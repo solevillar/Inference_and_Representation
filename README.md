@@ -80,6 +80,7 @@ There is no required book. Assigned readings will come from freely-available onl
 | Oct 8th | Introduction to error correcting codes. Introduction to sampling methods | Chapters 1 and 47 of MacKay. Bishop chapter 11 | HW 3 due October 22 (noon) |
 | Oct 21st (recitation)| Markov Chain Monte Carlo (MCMC) | [Lecture notes on MCMC](https://cims.nyu.edu/~holmes/teaching/asa19/handout_Lecture3_2019.pdf) | |
 | Nov 4th (recitation)| MCMC cont'd; General EM algorithm | [Notes on EM](http://www.robots.ox.ac.uk/~cvrg/trinity2005/jordan_bishop.ps) | |
+| Nov 5th | MCMC techniques for detecting Gerrymandering, Variational Autoencoders | Gerrymandering [1](https://sites.duke.edu/quantifyinggerrymandering/) and [2](https://www.pnas.org/content/114/11/2860). VAEs [tutorial](https://arxiv.org/pdf/1606.05908.pdf) and [code example](https://github.com/nitarshan/variational-autoencoder) | Project proposal due 11/13|
 
 
 
