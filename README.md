@@ -60,8 +60,8 @@ There is no required book. Assigned readings will come from freely-available onl
 ## Important dates
 - October 15. No class and no office hours (legislative Monday).
 - October 29. Midterm
-- December 4, 5, 6, 4:55pm-6:35pm. Final project presentations.
-- December 10. Final project due. 
+- December 3, 4, 6. Final project presentations (see schedule).
+- December 12. Final project due. 
 
 
 
@@ -83,6 +83,8 @@ There is no required book. Assigned readings will come from freely-available onl
 | Nov 5th | MCMC techniques for detecting Gerrymandering, Variational Autoencoders | [Gerrymandering](https://sites.duke.edu/quantifyinggerrymandering/) and papers [1](https://arxiv.org/pdf/1801.03783.pdf), [2](https://www.pnas.org/content/114/11/2860). VAEs [tutorial](https://arxiv.org/pdf/1606.05908.pdf) and [code example](https://github.com/nitarshan/variational-autoencoder) | Project proposal due 11/13|
 | Nov 11th (recitation)| EM cont'd; basics of neural networks | ||
 | Nov 12th | Variational inference | https://arxiv.org/abs/1601.00670||
+| Nov 18th | GANs | ||
+| Nov 19th | Wasserstein GAN, GLO | ||
 
 
 
