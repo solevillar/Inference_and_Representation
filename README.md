@@ -83,8 +83,10 @@ There is no required book. Assigned readings will come from freely-available onl
 | Nov 5th | MCMC techniques for detecting Gerrymandering, Variational Autoencoders | [Gerrymandering](https://sites.duke.edu/quantifyinggerrymandering/) and papers [1](https://arxiv.org/pdf/1801.03783.pdf), [2](https://www.pnas.org/content/114/11/2860). VAEs [tutorial](https://arxiv.org/pdf/1606.05908.pdf) and [code example](https://github.com/nitarshan/variational-autoencoder) | Project proposal due 11/13|
 | Nov 11th (recitation)| EM cont'd; basics of neural networks | ||
 | Nov 12th | Variational inference | https://arxiv.org/abs/1601.00670||
-| Nov 18th | GANs | ||
-| Nov 19th | Wasserstein GAN, GLO | ||
+| Nov 18th | GANs |https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf ||
+| Nov 19th | Wasserstein GAN, GLO | https://arxiv.org/pdf/1701.07875.pdf and https://arxiv.org/pdf/1707.05776.pdf||
+| Nov 26th | Gaussian processes | Chapter 2 of http://www.gaussianprocess.org/gpml/chapters/ ||
+
 
 
 
