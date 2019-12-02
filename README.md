@@ -87,7 +87,7 @@ There is no required book. Assigned readings will come from freely-available onl
 | Nov 19th | Wasserstein GAN, GLO | https://arxiv.org/pdf/1701.07875.pdf and https://arxiv.org/pdf/1707.05776.pdf||
 | Nov 25th | Community detection and GNN | [Community detection](https://arxiv.org/abs/1702.00467), [GCN (Kipf & Welling)](https://arxiv.org/abs/1609.02907), [MPNN (Gilmer et al.)](https://arxiv.org/abs/1704.01212) ||
 | Nov 26th | Gaussian processes | Chapter 2 of http://www.gaussianprocess.org/gpml/chapters/ ||
-| Dec 2nd | Representation learning with autoencoders and other methods | [Autoencoders](https://www.deeplearningbook.org/contents/autoencoders.html), [Contrastive predictive coding](https://arxiv.org/pdf/1807.03748.pdf) |
+| Dec 2nd | Representation learning with autoencoders and predictive coding | [Autoencoders](https://www.deeplearningbook.org/contents/autoencoders.html), [Contrastive Predictive Coding](https://arxiv.org/pdf/1807.03748.pdf), [Noise Contrastive Estimation](http://demo.clab.cs.cmu.edu/cdyer/nce_notes.pdf) |
 
 
 
